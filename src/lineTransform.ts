@@ -1,5 +1,4 @@
 import { Transform, TransformOptions, TransformCallback } from "stream";
-import { threadId } from "worker_threads";
 
 export class LineTransform extends Transform {
   private _data: string = "";
